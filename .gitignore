@@ -1,0 +1,55 @@
+# ==========================================
+# 🪐 Stego-Latent Phase Disruptor (SLPD) GitIgnore
+# ==========================================
+
+# 1. tmp
+input_banana.jpg
+temp_stage1.jpg
+temp_latent.jpg
+temp_latent_input.jpg
+temp_step.jpg
+bypass_output.png
+bypass_output_sharp.png
+bypass_final_clean.png
+
+# 2. Cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+
+# 3. Dist
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# 4. Venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# 5. Specific PyCharm (JetBrains IDE)
+.idea/
+*.iws
+*.iml
+
+# 6. System
+*.log
+.DS_Store
+Thumbs.db
